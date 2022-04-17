@@ -1,0 +1,81 @@
+body{
+    font-family: 'Akshar', sans-serif;
+    margin: 0px;
+}
+.title-color{
+    color: orange;
+}
+h1{
+    font-size: 60px;
+}
+h2{
+    font-size: 40px;
+}
+section{
+    display:flex;
+}
+.half-width{
+    width: 50%;
+    padding-left: 5%;
+}
+.half-width img{
+    width: 80%;
+}
+.hire-button{
+    text-decoration: none;
+    background-image:linear-gradient(orange,tomato);
+    padding: 10px 30px;
+    border-radius: 4px;
+    color: white;
+    font-size: 20px;
+    
+}
+
+.first-section{
+   
+    background-image: url(images/top-banner.png);
+    background-repeat: no-repeat;
+    
+}
+.secound-section{
+    background-image: url(images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
+    margin-top: 100px;
+}
+ .exprience-section{
+     background-image: url(images/rone.png);
+     background-repeat: no-repeat;
+     /* margin-top: 20px; */
+     background-position:left;
+ }
+
+.exprience-shadow{
+    width: 40%;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-bottom: 80px;
+    padding: 50px;
+    border-radius: 10px;
+
+    box-shadow: 10px 10px 30px gray;
+}
+.exprience-color{
+    color: orange;
+}
+#full-stack{    
+    border-left: 8px solid;
+    border-image:linear-gradient(orange,tomato);
+    border-image-slice: 2;
+   
+}
+#baby-web{
+    border-left: 8px solid;
+    border-image:linear-gradient(blue,cyan);
+    border-image-slice: 1;
+}
+footer p {
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: bold;
+}
